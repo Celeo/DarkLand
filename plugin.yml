@@ -1,0 +1,12 @@
+name: DarkLand
+version: 0.1.2.4
+authors: [Celeo, epuidokas]
+description: Plugin that controls player-owned land
+website: http://darktidegames.com/
+main: com.darktidegames.celeo.DarkLand
+depend: [Empyrean, WorldEdit, WorldGuard]
+softdepend: [DarkClans]
+commands:
+  darkland:
+    usage: /<command> claim|cancel
+    description: Claims land for your personal use!
